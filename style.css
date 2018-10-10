@@ -1,0 +1,81 @@
+
+/*  это почему-то не работает!
+.lalalala {font-family: Arial;
+font-size: 82px;}
+
+.h1
+{
+    font-size: 200%;
+} 
+*/
+/*  это работает!
+body {
+    color: red;
+    background: #0f0;
+}
+li {
+    text-align: center;
+}  */
+
+body {
+    color: wheat;
+    background-image: url("img/conifer-desktop-wallpaper-fog-1287075.jpg");
+    background-color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Charmonman', cursive;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+h3 {
+    color: black;
+
+}
+
+p {
+    color: rebeccapurple;
+}
+.main {
+    height: 10 px;
+    width: 300px;
+}
+
+.border1 {
+  border: 1px dotted aquamarine;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*  проверка присвоения разного цвета итд границ 
+.border2 {
+    border-top: 1px dotted aquamarine;
+    border-bottom: 3px double blue;
+    border-left:2px groove greenyellow;
+    border-right: 4px inset goldenrod;
+    text-align: center;
+  }  */
+
+  .navigation {
+      list-style-type: none; /* это в списках точечки возле каждого пункта, могут быть disc, circle, square, decimal ..*/
+      list-style-position: inside; /* определяет где распологается маркер inside or outside */
+      text-align: justify; /* выравнивание содержимого блока по горизонтали, left, right, center, justify */
+      text-decoration: none; /* перечеркивание, линия над текстов, линия под текстом, отмена всего line-through, overline, underline, none*/
+    }
+/* не  работает
+p .testfonts {
+        @font-face {
+           font-family: 'ChunkFiveRegular';
+           src: url('fonts/chunkfive/chunkfive.woff');
+           font-family: 'PT Sans Narrow', sans-serif;
+         font-family: 'Charmonman', cursive;
+           
+    } */
+
+
+    @font-face {
+        font-family: 'blackentina_4fregular';
+        src: url('fonts/webfontkit-20181010-044924/blackentina_4f-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
